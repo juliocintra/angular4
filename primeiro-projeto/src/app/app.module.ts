@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro-component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
-import { CursosModule } from './cursos/cursos.module'
+import { CursosModule } from './cursos/cursos.module';
+
+import { SMNUIModule } from 'ng-smn-ui';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,11 @@ import { CursosModule } from './cursos/cursos.module'
   ],
   imports: [
     BrowserModule,
-    CursosModule
+    CursosModule,
+    SMNUIModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA] // permite usar tags customizadas;
 })
 export class AppModule { }
