@@ -11,6 +11,7 @@ export class AppComponent {
   urlImagem: 'http://lorenpixel.com/400/200/nature/';
   valorAtual: string = '';
   valorSalvo: string = '';
+  mouseOver: boolean = false;
 
   getValor() {
     return 5
@@ -26,5 +27,9 @@ export class AppComponent {
 
   salvarValor(valor: string) {
     this.valorSalvo = valor;
+  }
+
+  onMouseOverOut() {
+    this.mouseOver = !this.mouseOver;
   }
 }
