@@ -1,121 +1,85 @@
-<!--&lt;!&ndash;The content below is only a placeholder and can be replaced.&ndash;&gt;-->
-<!--<div style="text-align:center">-->
-  <!--<h1>-->
-    <!--Welcome to {{ title }}!-->
-  <!--</h1>-->
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
 
-  <!--<app-meu-primeiro-component></app-meu-primeiro-component>-->
-  <!--<app-meu-primeiro2></app-meu-primeiro2>-->
-  <!--<app-cursos></app-cursos>-->
-  <!--<img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">-->
-<!--</div>-->
-
-<ui-toolbar class="fixed flat elevate-on-scroll primary elevate-on-s960" id="app-header">
-  <button (click)="menuOpen = true" class="ui-button flat icon" uiRipple>
-    <i class="material-icons">menu</i>
-  </button>
-  <span class="title">{{title}}</span>
-</ui-toolbar>
-
-<ui-nav-drawer class="persistent" [(open)]="menuOpen">
-  <ui-toolbar class="flat">
-    <button (click)="menuOpen = false" class="ui-button flat icon" uiRipple>
-      <i class="material-icons">menu</i>
-    </button>
-    <span class="title">{{title}}</span>
-  </ui-toolbar>
-  <div class="ui-nav-drawer-overflow">
-    <div class="ui-list">
-      <a class="ui-list-item" uiRipple routerLink="/" [routerLinkActive]="['active']"
-         [routerLinkActiveOptions]="{ exact: true }">Home</a>
-      <a class="ui-list-item" uiRipple routerLink="/plano-conta" [routerLinkActive]="['active']">
-        Plano de conta
-      </a>
-      <div>
-        <div class="ui-list-item" uiRipple [uiListItem]="administracao">
-          Administração
-          <span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
-        </div>
-        <div class="ui-list-item-group" #administracao>
-          <!--<a class="ui-list-item" uiRipple routerLink="/unidade" [routerLinkActive]="['active']">Unidade</a>-->
-          <a class="ui-list-item" uiRipple routerLink="/forma-pagamento" [routerLinkActive]="['active']">
-            Forma de pagamento
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/centro-custo" [routerLinkActive]="['active']">
-            Centro de custo
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/fornecedor" [routerLinkActive]="['active']">
-            Fornecedor
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/painel-inadimplencia" [routerLinkActive]="['active']">
-            Painel de inadimplência
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/fluxo-de-caixa/dia" [routerLinkActive]="['active']">
-            Fluxo de caixa
-          </a>
-        </div>
-      </div>
-      <a class="ui-list-item" uiRipple routerLink="/projeto" [routerLinkActive]="['active']">Projeto</a>
-      <div>
-        <div class="ui-list-item" uiRipple [uiListItem]="contas">
-          Conta
-          <span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
-        </div>
-        <div class="ui-list-item-group" #contas>
-          <a class="ui-list-item" uiRipple routerLink="/banco-conta" [routerLinkActive]="['active']">
-            Conta bancária
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/conta-corrente" [routerLinkActive]="['active']">
-            Parâmetros - Conta corrente
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/conta-pagar" [routerLinkActive]="['active']">
-            Conta a pagar
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/conta-receber" [routerLinkActive]="['active']">
-            Conta a receber
-          </a>
-        </div>
-      </div>
-      <div>
-        <div class="ui-list-item" uiRipple [uiListItem]="caixas">
-          Caixa
-          <span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
-        </div>
-        <div class="ui-list-item-group" #caixas>
-          <a class="ui-list-item" uiRipple routerLink="/abertura" [routerLinkActive]="['active']">
-            Abertura
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/fechamento" [routerLinkActive]="['active']">
-            Fechamento
-          </a>
-          <a class="ui-list-item" uiRipple routerLink="/caixa" [routerLinkActive]="['active']">
-            Lançamento
-          </a>
-          <div>
-            <div class="ui-list-item" uiRipple [uiListItem]="relatorios">
-              Relatório
-              <span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>
-            </div>
-            <div class="ui-list-item-group" #relatorios>
-              <a class="ui-list-item" uiRipple routerLink="/historico-abertura-fechamento" [routerLinkActive]="['active']">
-                Histórico de abertura/fechamento
-              </a>
-              <a class="ui-list-item" uiRipple routerLink="/relatorio-lancamento" [routerLinkActive]="['active']">
-                Lançamentos
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</ui-nav-drawer>
-
-<div *ngIf="readyToGo">
-  <router-outlet></router-outlet>
+  <app-meu-primeiro-component></app-meu-primeiro-component>
+  <app-meu-primeiro2></app-meu-primeiro2>
+  <app-cursos></app-cursos>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div>
 
-<!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
-<!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
 
-<ui-snackbar-container></ui-snackbar-container>
+
+
+<!--&#45;&#45;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;The content below is only a placeholder and can be replaced.&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<div style="text-align:center">&ndash;&gt;-->
+<!--&lt;!&ndash;<h1>&ndash;&gt;-->
+<!--&lt;!&ndash;Welcome to {{ title }}!&ndash;&gt;-->
+<!--&lt;!&ndash;</h1>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<app-meu-primeiro-component></app-meu-primeiro-component>&ndash;&gt;-->
+<!--&lt;!&ndash;<app-meu-primeiro2></app-meu-primeiro2>&ndash;&gt;-->
+<!--&lt;!&ndash;<app-cursos></app-cursos>&ndash;&gt;-->
+<!--&lt;!&ndash;<img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--<ui-toolbar class="fixed flat elevate-on-scroll primary elevate-on-s960" id="app-header">-->
+  <!--<button (click)="menuOpen = true" class="ui-button flat icon" uiRipple>-->
+    <!--<i class="material-icons">menu</i>-->
+  <!--</button>-->
+  <!--<span class="title">{{title}}</span>-->
+<!--</ui-toolbar>-->
+
+<!--<ui-nav-drawer class="persistent" [(open)]="menuOpen">-->
+  <!--<ui-toolbar class="flat">-->
+    <!--<button (click)="menuOpen = false" class="ui-button flat icon" uiRipple>-->
+      <!--<i class="material-icons">menu</i>-->
+    <!--</button>-->
+    <!--<span class="title">{{title}}</span>-->
+  <!--</ui-toolbar>-->
+  <!--<div class="ui-nav-drawer-overflow">-->
+    <!--<div class="ui-list">-->
+      <!--<a class="ui-list-item" uiRipple routerLink="/">Home</a>-->
+      <!--<div>-->
+        <!--<div class="ui-list-item" uiRipple [uiListItem]="administracao">-->
+          <!--Administração-->
+          <!--<span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>-->
+        <!--</div>-->
+        <!--<div class="ui-list-item-group" #administracao>-->
+          <!--&lt;!&ndash;<a class="ui-list-item" uiRipple routerLink="/unidade">Unidade</a>&ndash;&gt;-->
+          <!--<a class="ui-list-item" uiRipple routerLink="/desenhos">-->
+            <!--Desenhos-->
+          <!--</a>-->
+          <!--<a class="ui-list-item" uiRipple routerLink="/pinturas">-->
+            <!--Pinturas-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<div>-->
+        <!--<div class="ui-list-item" uiRipple [uiListItem]="seguranca">-->
+          <!--Segurança-->
+          <!--<span class="arrow"><i class="material-icons">keyboard_arrow_down</i></span>-->
+        <!--</div>-->
+        <!--<div class="ui-list-item-group" #seguranca>-->
+          <!--<a class="ui-list-item" uiRipple routerLink="/usuario">-->
+            <!--Usuário-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</ui-nav-drawer>-->
+
+<!--<div>-->
+  <!--<router-outlet></router-outlet>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&ndash;&gt;-->
+<!--&lt;!&ndash;<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&ndash;&gt;-->
+
+<!--<ui-snackbar-container></ui-snackbar-container>-->
