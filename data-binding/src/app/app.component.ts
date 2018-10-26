@@ -12,6 +12,11 @@ export class AppComponent {
   valorAtual: string = '';
   valorSalvo: string = '';
   mouseOver: boolean = false;
+  obj: any = {
+    nome: 'Julio',
+    idade: '21'
+  };
+
 
   getValor() {
     return 5
