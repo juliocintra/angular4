@@ -17,6 +17,7 @@ export class AppComponent {
     idade: '21'
   };
 
+  nomeDoCurso: string = 'Angular';
 
   getValor() {
     return 5
