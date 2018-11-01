@@ -3,9 +3,12 @@
   <article>
     <h3>Input/Output Properties</h3>
 
-    <app-curso [nome]="nomeDoCurso"></app-curso>
+    <!--<app-curso [nome]="nomeDoCurso"></app-curso>-->
 
-    <contador></contador>
+    <contador valor="10"
+              (mudouValor)="onMudouValor($event)"
+    ></contador>
+    <!--<contador [valor]="valorInicial"></contador>-->
   </article>
 
 </section>
