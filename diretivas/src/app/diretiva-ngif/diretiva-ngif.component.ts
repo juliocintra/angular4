@@ -7,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DiretivaNgifComponent implements OnInit {
 
-  cursos: string[] = ["Angular4"];
+  cursos: string[] = ["Angular4", "Java", "JavaScript"];
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }
