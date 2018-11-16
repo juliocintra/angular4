@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ebb8bb-044e-4dd9-a813-31cd4374c083" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,97 +26,59 @@
     <session id="2022599661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="Angular2LanguageService" value="2" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="9" />
+          <entry key="css" value="8" />
+          <entry key="html" value="22" />
           <entry key="scss" value="1" />
-          <entry key="ts" value="19" />
+          <entry key="ts" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="9" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="22" />
           <entry key="SCSS" value="1" />
-          <entry key="TypeScript" value="19" />
+          <entry key="TypeScript" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="108" />
-          <entry key="ts" value="153" />
+          <entry key="html" value="266" />
+          <entry key="ts" value="1169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="108" />
-          <entry key="TypeScript" value="153" />
+          <entry key="HTML" value="266" />
+          <entry key="TypeScript" value="1169" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="heroes.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hero-detail.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hero-detail.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hero.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,15 +116,21 @@
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/styles.css" />
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.ts" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/mock-heroes.ts" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.ts" />
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" />
-        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" />
         <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.service.ts" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.css" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.css" />
+        <option value="$PROJECT_DIR$/angular-tour-of-heroes/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
@@ -184,10 +163,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="960" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -225,14 +203,13 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="service&#9;FILE&#9;file://C:/Users/user/Desktop/ESTUDO/angular4/primeiro-projeto/src/app/cursos/cursos.service.ts" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NODE/Primeiro Deploy/crud-deploy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -240,7 +217,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="ts.external.directory.path" value="C:\Users\user\Desktop\ESTUDO\angular4\primeiro-projeto\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Julio\Desktop\Angular\angular4\angular-tour-of-heroes\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,57 +234,29 @@
   <component name="RunManager" selected="npm.start">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -319,6 +268,7 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/primeiro-projeto/package.json" />
@@ -328,6 +278,7 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="npm.start" />
@@ -361,76 +312,76 @@
       <workItem from="1541360329430" duration="2718000" />
       <workItem from="1541514604993" duration="3581000" />
       <workItem from="1541584531337" duration="2226000" />
+      <workItem from="1542320694199" duration="6865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60816000" />
+    <option name="totallyTimeSpent" value="68682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="3" sideWeight="0.2211127" side_tool="true" weight="0.14392324" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22004357" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27124184" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77888733" visible="true" weight="0.2771855" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77888733" visible="true" weight="0.2531983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="npm" order="3" sideWeight="0.2211127" side_tool="true" weight="0.14392324" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22004357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23535791" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info id="npm" order="3" sideWeight="0.2211127" side_tool="true" weight="0.14392324" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22004357" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77888733" weight="0.14552239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="npm" order="3" sideWeight="0.2211127" side_tool="true" weight="0.14392324" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22004357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23638344" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77888733" weight="0.14552239" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,40 +397,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data-binding/src/app/data-binding/data-binding.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-binding/src/app/output-property/output-property.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-binding/src/app/output-property/output-property.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-binding/src/app/data-binding/data-binding.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeiro-projeto/src/app/cursos/curso-detalhe/curso-detalhe.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeiro-projeto/src/app/cursos/curso-detalhe/curso-detalhe.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/primeiro-projeto/src/app/cursos/cursos.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -590,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diretivas/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diretivas/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -608,25 +518,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diretivas/src/app/diretiva-ngif/diretiva-ngif.service.ts" />
-    <entry file="file://$PROJECT_DIR$/diretivas/src/app/diretiva-ngif/diretiva-ngif.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diretivas/src/app/diretiva-ngif/diretiva-ngif.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data-binding/src/app/data-binding/data-binding.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,20 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -695,40 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -746,19 +595,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/diretivas/src/app/diretiva-ngif/diretiva-ngif.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diretivas/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/message.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/heroes/heroes.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/hero.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-tour-of-heroes/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
